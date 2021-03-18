@@ -1,0 +1,22 @@
+input.onButtonPressed(Button.A, function () {
+    music.playTone(294, music.beat(BeatFraction.Half))
+    basic.pause(50)
+    music.playTone(294, music.beat(BeatFraction.Half))
+    basic.pause(50)
+    music.playTone(587, music.beat(BeatFraction.Half))
+    basic.pause(50)
+    music.playTone(440, music.beat(BeatFraction.Half))
+    basic.pause(50)
+    music.playTone(415, music.beat(BeatFraction.Half))
+    basic.pause(50)
+    music.playTone(392, music.beat(BeatFraction.Half))
+    basic.pause(50)
+    music.playTone(349, music.beat(BeatFraction.Whole))
+    basic.pause(50)
+    music.playTone(294, music.beat(BeatFraction.Half))
+    basic.pause(50)
+    music.playTone(349, music.beat(BeatFraction.Half))
+})
+basic.forever(function () {
+	
+})
